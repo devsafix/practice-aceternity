@@ -3,10 +3,12 @@
 import { Spotlight } from "@/components/ui/Spotlight";
 import TinnyButton from "./shared/TinnyButton";
 import OutlineButton from "./shared/OutlineButton";
+import { ContainerScroll } from "@/components/ui/container-scroll-animation";
+import Image from "next/image";
 
 export function Hero() {
   return (
-    <div className="h-screen w-full flex flex-col items-center justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden px-4">
+    <div className="min-h-screen w-full flex flex-col items-center lg:pt-48 pt-32 bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden px-4">
       {/* Spotlight Effect */}
       <Spotlight
         className="-top-40 left-0 md:left-60 md:-top-20"
@@ -25,7 +27,7 @@ export function Hero() {
         {/* Hero Description */}
         <p className="mt-2 text-base md:text-lg text-neutral-300 max-w-2xl">
           Transform your ideas into high-performance digital experiences. We
-          craft cutting-edge websites that **attract, engage, and convert**.
+          craft cutting-edge websites that attract, engage, and convert.
         </p>
 
         {/* Call-to-Action Buttons */}
