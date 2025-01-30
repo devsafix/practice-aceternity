@@ -33,7 +33,7 @@ export function Hero() {
         {/* Call-to-Action Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 mt-4">
           <OutlineButton name="📞 Get a Free Consultation" />
-          <OutlineButton name="📂 View Our Work" />
+          <OutlineButton name="📂 View Our Works" />
         </div>
       </div>
     </div>
