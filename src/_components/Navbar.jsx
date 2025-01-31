@@ -41,7 +41,9 @@ function NavbarFunction({ className }) {
         <MenuItem setActive={setActive} active={active} item="Services">
           <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/web-dev">Web Development</HoveredLink>
-            <HoveredLink href="/interface-design">Interface Design</HoveredLink>
+            <HoveredLink href="/interface-design">App Development</HoveredLink>
+            <HoveredLink href="/interface-design">CMS Development</HoveredLink>
+            <HoveredLink href="/interface-design">Video Editing</HoveredLink>
             <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
             <HoveredLink href="/branding">Branding</HoveredLink>
           </div>
